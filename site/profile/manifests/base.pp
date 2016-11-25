@@ -12,11 +12,11 @@ class profile::base {
 
   # accounts::user { 'emergency':
   #   ensure => present,
-  #   uid => '460',
-  #   gid => '460',
-  #   shell => '/bin/bash',
+  #   uid      => '460',
+  #   gid      => '460',
+  #   shell    => '/bin/bash',
   #   password => '!!', # No password
-  #   sshkeys => [
+  #   sshkeys  => [
   #     "ssh-rsa AAAA...",
   #     "ssh-rsa BBBB...",
   #     "ssh-rsa CCCC...",
