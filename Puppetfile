@@ -19,3 +19,4 @@ forge "http://forge.puppetlabs.com"
 mod 'puppetlabs/stdlib',    '4.12.0'
 mod 'puppetlabs/accounts',  '1.0.0'
 mod 'puppetlabs/ntp',       '4.2.0'
+mod 'puppetlabs/registry',   '1.1.3'
