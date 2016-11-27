@@ -7,4 +7,9 @@ class profile::app_server {
     type   => 'dword',
   }
   # }
+
+  file { 'c:\temp\test.txt':
+    content => 'This is the content of my test file!'
+  }
+
 }
