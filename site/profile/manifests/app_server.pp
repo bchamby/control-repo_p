@@ -5,6 +5,6 @@ class profile::app_server {
     ensure => present,
     data   => '0',
     type   => 'dword',
-    }
+  }
   # }
 }
